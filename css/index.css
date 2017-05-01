@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #00000D;
-	background-color: #192FF7;
+	color: #0000EF;
+	background-color: #B73234;
 }
 
 #muse_css_mq
@@ -4142,8 +4142,7 @@
 	border-style: solid;
 	border-width: 1px;
 	border-color: #72AB00;
-	background-color: #F0F0F0;
-	border-radius: 4px;
+	background-color: #EBEBEB;
 	color: #141414;
 	text-align: center;
 	font-size: 15px;
@@ -4207,8 +4206,7 @@
 	border-style: solid;
 	border-width: 1px;
 	border-color: #72AB00;
-	background-color: #F0F0F0;
-	border-radius: 4px;
+	background-color: #EBEBEB;
 	text-align: center;
 	font-size: 15px;
 	line-height: 18px;
