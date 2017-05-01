@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="damnicantflywebsite.github.io" resolutions="1x" timestamp="1493663747874">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="damnicantflywebsite.github.io" resolutions="1x" timestamp="1493664614584">
   <folder name="css">
     <file name="site_global.css" crc="303421102"/>
-    <file name="master_a-master.css" crc="3813256392" ref="index"/>
-    <file name="index.css" crc="3985172989" ref="index"/>
-    <file name="iefonts_index.css" crc="4252646885" ref="index"/>
+    <file name="master_a-master.css" crc="4217871264" ref="index"/>
+    <file name="index.css" crc="472045074" ref="index"/>
+    <file name="iefonts_index.css" crc="365922468" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="4197d7_04486e3d9f1e42e38257d48caa1fb643.png" crc="101365724" seo="true" mt="1492711074000"/>
@@ -124,5 +124,5 @@
     <file name="u1778.png" crc="192037712" ref="index"/>
     <file name="u1778-r.png" crc="221696330" ref="index"/>
   </folder>
-  <file name="index.html" crc="122112632" seo="true" mt="1493663630595" redirect="true"/>
+  <file name="index.html" crc="43258165" seo="true" mt="1493664600642" redirect="true"/>
 </manifest>

@@ -27,9 +27,10 @@
 #u1771-4
 {
 	background-color: transparent;
-	line-height: 42px;
 	text-align: center;
 	font-size: 35px;
+	color: #141414;
+	line-height: 42px;
 	letter-spacing: 1px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
@@ -45,6 +46,12 @@
 	letter-spacing: 6px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
+}
+
+#u11356-4
+{
+	background-color: transparent;
+	color: #141414;
 }
 
 #u1774
