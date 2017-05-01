@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E1;
-	background-color: #FED3D1;
+	color: #00000D;
+	background-color: #192FF7;
 }
 
 #muse_css_mq
@@ -434,7 +434,7 @@
 	line-height: 60px;
 	font-weight: 400;
 	margin-left: 20px;
-	margin-top: 85px;
+	margin-top: 75px;
 	position: relative;
 }
 
@@ -450,7 +450,7 @@
 	font-family: josefin-sans, sans-serif;
 	font-weight: 300;
 	margin-left: 20px;
-	margin-top: 89px;
+	margin-top: 49px;
 	position: relative;
 }
 
@@ -3754,8 +3754,8 @@
 #about-me
 {
 	margin-left: 469px;
-	top: -58px;
-	margin-bottom: -18px;
+	top: -8px;
+	margin-bottom: -8px;
 	position: relative;
 }
 
@@ -3808,7 +3808,7 @@
 	border-radius: 10px;
 	padding-bottom: 40px;
 	left: 140px;
-	margin-top: 75px;
+	margin-top: 65px;
 	position: relative;
 }
 
@@ -4103,6 +4103,7 @@
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	left: 140px;
+	margin-top: 10px;
 	position: relative;
 }
 
@@ -4167,7 +4168,7 @@
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	left: 140px;
-	margin-top: 9px;
+	margin-top: 29px;
 	position: relative;
 }
 
@@ -4222,7 +4223,7 @@
 #contact
 {
 	left: 569px;
-	margin-top: 152px;
+	margin-top: 132px;
 	position: relative;
 }
 
@@ -4230,7 +4231,7 @@
 {
 	z-index: 25;
 	min-height: 1501.5999999999985px;
-	margin-top: 2px;
+	margin-top: 42px;
 }
 
 #u8517-4
