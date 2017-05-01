@@ -48,12 +48,6 @@
 	font-weight: 300;
 }
 
-#u11356-4
-{
-	background-color: transparent;
-	color: #141414;
-}
-
 #u1774
 {
 	vertical-align: top;
@@ -86,4 +80,14 @@
 {
 	background: transparent url("../images/u1778-r.png") no-repeat 0px 0px;
 }
+
+#u11356-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #141414;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+}
+
 

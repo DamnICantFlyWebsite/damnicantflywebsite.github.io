@@ -11,11 +11,11 @@
   <title>DamnICantFlyWebsite</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?303421102"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?375616562"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?366984051" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?187128841"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?3791573969" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?3971365687"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?3826407174"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -73,11 +73,11 @@ ga('send', 'pageview');
 			var expandableToggleButton = expandableToggleButtons[i];
 			if (expandableToggleButton.id != clickedButtonID || collapsing) 
 			{
-				expandableToggleButton.innerHTML = "Read more..";
+				expandableToggleButton.innerHTML = "VIEW MORE";
 			} 
 			else 
 			{
-				expandableToggleButton.innerHTML = "Read less..";
+				expandableToggleButton.innerHTML = "VIEW LESS";
 			}
 		}
 	}
@@ -672,14 +672,14 @@ ga('send', 'pageview');
 	<span style="font-size:14px; color:#141414;">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
 		<br>
-		<span style="font-size:18px; color:#283C00;"><b>Future of Fame - Intern</b></span><br>
-		<span style="font-size:16px; color:#141414;">​<i>​​Aug 2014 - Feb 2015</i></span><br>
-		<br>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 	</span>
 </span>
 
-<span class="expandable" style="display:none;" id="work experience">ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+<span class="expandable" style="display:none;" id="work experience">
+	<span style="font-size:18px; color:#283C00;"><b>Future of Fame - Intern</b></span><br>
+	<span style="font-size:16px; color:#141414;">​<i>​​Aug 2014 - Feb 2015</i></span><br>
+	<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
 	<br>
 	<span style="font-size:18px; color:#283C00;"><b>038 Games - Intern</b></span><br>
 	<span style="font-size:16px; color:#141414;">​<i>​Feb 2014 - June 2014</i></span><br>
@@ -693,9 +693,10 @@ ga('send', 'pageview');
 	var expandableState = {id:(element.id), collapsed:true};
 	expandableStates.push(expandableState);
 </script>
+
 </div>
        <div class="rounded-corners colelem" id="u11328"><!-- custom html -->
-        <div style="text-overflow: fade; width:650px; height: 15px; cursor:pointer;" id="work experience button" onclick="toggleExpandable('work experience', 'work experience button')">Read more..</div>
+        <div style="text-overflow: fade; width:650px; height: 15px; cursor:pointer;" id="work experience button" onclick="toggleExpandable('work experience', 'work experience button')">VIEW MORE</div>
 
 <script>
 	expandableToggleButtons.push(document.getElementById('work experience button'));
@@ -715,14 +716,14 @@ ga('send', 'pageview');
 	<span style="font-size:14px; color:#141414;">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
 		<br>
-		<span style="font-size:18px; color:#283C00;"><b>Deltion College - Game Development - MBO</b></span><br>
-		<span style="font-size:16px; color:#141414;">​<i>​​​2011 - 2015</i></span><br>
-		<br>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 	</span>
 </span>
 
-<span class="expandable" style="display:none;" id="education">labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+<span class="expandable" style="display:none;" id="education">
+	<span style="font-size:18px; color:#283C00;"><b>Deltion College - Game Development - MBO</b></span><br>
+	<span style="font-size:16px; color:#141414;">​<i>​​​2011 - 2015</i></span><br>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
 	<br>
 	<span style="font-size:18px; color:#283C00;"><b>Bataafse Kamp - High school - VMBO niveau 4</b></span><br>
 	<span style="font-size:16px; color:#141414;">​<i>​2007 - 2011</i></span><br>
@@ -738,16 +739,14 @@ ga('send', 'pageview');
 </script>
 
 </div>
-       <div class="clearfix colelem" id="pcontact"><!-- group -->
-        <a class="anchor_item grpelem" id="contact"></a>
-        <div class="rounded-corners grpelem" id="u11338"><!-- custom html -->
-         <div style="text-overflow: fade; width:650px; height: 15px; cursor:pointer;" id="education button" onclick="toggleExpandable('education', 'education button')">Read more..</div>
+       <div class="rounded-corners colelem" id="u11338"><!-- custom html -->
+        <div style="text-overflow: fade; width:650px; height: 15px; cursor:pointer;" id="education button" onclick="toggleExpandable('education', 'education button')">VIEW MORE</div>
 
 <script>
 	expandableToggleButtons.push(document.getElementById('education button'));
 </script>
 </div>
-       </div>
+       <a class="anchor_item colelem" id="contact"></a>
       </div>
      </div>
     </div>
@@ -798,15 +797,17 @@ ga('send', 'pageview');
         <div class="clearfix colelem" id="u1772-4"><!-- content -->
          <p>PORTFOLIO WEBSITE</p>
         </div>
-        <div class="clearfix colelem" id="u11356-4"><!-- content -->
-         <p>Copyright © 2017 First Lastname</p>
-        </div>
        </div>
       </div>
      </div>
      <div class="grpelem" id="u1774"><!-- state-based BG images --></div>
      <div class="grpelem" id="u1776"><!-- state-based BG images --></div>
      <div class="grpelem" id="u1778"><!-- state-based BG images --></div>
+     <div class="browser_width grpelem" id="u11356-4-bw">
+      <div class="clearfix" id="u11356-4"><!-- content -->
+       <p>© 2017 FIRSTNAME LASTNAME | ALL RIGHTS RESERVED</p>
+      </div>
+     </div>
     </div>
    </div>
   </div>
