@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="damnicantflywebsite.github.io" resolutions="1x" timestamp="1493666639339">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="damnicantflywebsite.github.io" resolutions="1x" timestamp="1493666879872">
   <folder name="css">
     <file name="site_global.css" crc="303421102"/>
     <file name="master_a-master.css" crc="4217871264" ref="index"/>
-    <file name="index.css" crc="4113170651" ref="index"/>
+    <file name="index.css" crc="4091686384" ref="index"/>
     <file name="iefonts_index.css" crc="365922468" ref="index"/>
   </folder>
   <folder name="assets">
@@ -124,5 +124,5 @@
     <file name="u1778.png" crc="192037712" ref="index"/>
     <file name="u1778-r.png" crc="221696330" ref="index"/>
   </folder>
-  <file name="index.html" crc="367789211" seo="true" mt="1493666631788" redirect="true"/>
+  <file name="index.html" crc="367789211" seo="true" mt="1493666871790" redirect="true"/>
 </manifest>

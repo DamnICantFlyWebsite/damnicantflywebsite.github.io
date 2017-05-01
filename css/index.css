@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000F5;
-	background-color: #2A00DB;
+	color: #0000F3;
+	background-color: #E22DF0;
 }
 
 #muse_css_mq
@@ -74,9 +74,6 @@
 {
 	border-width: 0px;
 	border-color: #000000;
-	opacity: 0.5;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: alpha(opacity=50);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 57px;
@@ -88,15 +85,18 @@
 {
 	border-style: solid;
 	border-color: #72AB00;
-	opacity: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 53px;
 	width: 108px;
 	margin: 0px 0px 0px 117px;
 	border-width: 0px 0px 4px;
+}
+
+#u168-4:hover p
+{
+	color: #72AB00;
+	visibility: inherit;
 }
 
 #u182-4
@@ -121,9 +121,6 @@
 {
 	border-width: 0px;
 	border-color: #000000;
-	opacity: 0.5;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: alpha(opacity=50);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 57px;
@@ -135,15 +132,18 @@
 {
 	border-style: solid;
 	border-color: #72AB00;
-	opacity: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 53px;
 	width: 137px;
 	margin: 0px 0px 0px 246px;
 	border-width: 0px 0px 4px;
+}
+
+#u182-4:hover p
+{
+	color: #72AB00;
+	visibility: inherit;
 }
 
 #u172-4
@@ -168,9 +168,6 @@
 {
 	border-width: 0px;
 	border-color: #000000;
-	opacity: 0.5;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: alpha(opacity=50);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 57px;
@@ -182,15 +179,18 @@
 {
 	border-style: solid;
 	border-color: #72AB00;
-	opacity: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 53px;
 	width: 116px;
 	margin: 0px 0px 0px -223px;
 	border-width: 0px 0px 4px;
+}
+
+#u172-4:hover p
+{
+	color: #72AB00;
+	visibility: inherit;
 }
 
 #u173-4
@@ -215,9 +215,6 @@
 {
 	border-width: 0px;
 	border-color: #000000;
-	opacity: 0.5;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: alpha(opacity=50);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 57px;
@@ -229,15 +226,18 @@
 {
 	border-style: solid;
 	border-color: #72AB00;
-	opacity: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 53px;
 	width: 102px;
 	margin: 0px 0px 0px -345px;
 	border-width: 0px 0px 4px;
+}
+
+#u173-4:hover p
+{
+	color: #72AB00;
+	visibility: inherit;
 }
 
 #u168-4.MuseLinkActive p,#u182-4.MuseLinkActive p,#u172-4.MuseLinkActive p,#u173-4.MuseLinkActive p
@@ -278,6 +278,17 @@
 	margin-left: -105px;
 }
 
+#u157-4:hover
+{
+	border-width: 0px;
+	border-color: #000000;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 43px;
+	width: 213px;
+	margin: 0px 0px 0px -105px;
+}
+
 #u157-4.MuseLinkActive
 {
 	border-style: solid;
@@ -288,6 +299,18 @@
 	width: 213px;
 	margin: 0px 0px -2px -105px;
 	border-width: 0px 0px 4px;
+}
+
+#u157-4:hover p
+{
+	color: #72AB00;
+	visibility: inherit;
+}
+
+#u157-4.MuseLinkActive p
+{
+	color: #141414;
+	visibility: inherit;
 }
 
 #u75
@@ -4069,7 +4092,7 @@
 	position: relative;
 	width: 22px;
 	margin-right: -10000px;
-	margin-top: 180px;
+	margin-top: 170px;
 	left: 435px;
 }
 
