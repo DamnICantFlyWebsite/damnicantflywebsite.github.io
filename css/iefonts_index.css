@@ -73,11 +73,6 @@
 	font-family: open-sans-n7, sans-serif;
 }
 
-#widgetu348.focus-st #u351-4 *
-{
-	font-family: open-sans-n7, sans-serif;
-}
-
 #u1639-4,#u351-4
 {
 	font-family: open-sans-n3, sans-serif;
@@ -93,22 +88,12 @@
 	font-family: open-sans-n7, sans-serif;
 }
 
-#widgetu342.focus-st #u344-4 *
-{
-	font-family: open-sans-n7, sans-serif;
-}
-
 #widgetu340.frm-sub-st #u341-4 p,#widgetu340.frm-subm-err-st #u352-4 p,#widgetu340.frm-subm-ok-st #u346-4 p
 {
 	font-family: open-sans-n3, sans-serif;
 }
 
 #widgetu342.fld-err-st #u344-4 *,#widgetu993.non-empty-st #u995-4 *
-{
-	font-family: open-sans-n7, sans-serif;
-}
-
-#widgetu993.focus-st #u995-4 *
 {
 	font-family: open-sans-n7, sans-serif;
 }

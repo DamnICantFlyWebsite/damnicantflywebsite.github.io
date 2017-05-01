@@ -6,7 +6,7 @@
 	-webkit-transform: matrix(0,-1,1,0,-61,100);
 	-ms-transform: matrix(0,-1,1,0,-61,100);
 	transform: matrix(0,-1,1,0,-61,100);
-	background: #FFFFFF url("../images/arrows-mn_arrow_right.png") no-repeat center center;
+	background: #FAFAFA url("../images/arrows-mn_arrow_right.png") no-repeat center center;
 }
 
 #u1773:hover
@@ -21,7 +21,7 @@
 
 #u1770
 {
-	background-color: #FAFAFA;
+	background-color: #F8F8F8;
 }
 
 #u1771-4
