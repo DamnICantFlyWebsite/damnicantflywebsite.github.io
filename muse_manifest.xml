@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="damnicantflywebsite.github.io" resolutions="1x" timestamp="1493664614584">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="damnicantflywebsite.github.io" resolutions="1x" timestamp="1493666639339">
   <folder name="css">
     <file name="site_global.css" crc="303421102"/>
     <file name="master_a-master.css" crc="4217871264" ref="index"/>
-    <file name="index.css" crc="472045074" ref="index"/>
+    <file name="index.css" crc="4113170651" ref="index"/>
     <file name="iefonts_index.css" crc="365922468" ref="index"/>
   </folder>
   <folder name="assets">
@@ -112,10 +112,10 @@
     <file name="social_06_linkedin.png" crc="4232862611" ref="index"/>
     <file name="social_03_google-plus.png" crc="4215200637" ref="index"/>
     <file name="penguin-with-headphones-t-shirts-men-s-classic-polo-shirt.jpg" crc="3763831750" ref="index"/>
-    <file name="u347-17.png" crc="4141852522" ref="index"/>
-    <file name="u347-17-r.png" crc="4209879325" ref="index"/>
-    <file name="u347-17-m.png" crc="4209879325" ref="index"/>
-    <file name="u347-17-fs.png" crc="4141852522" ref="index"/>
+    <file name="u347-17.png" crc="4127326546" ref="index"/>
+    <file name="u347-17-r.png" crc="468454789" ref="index"/>
+    <file name="u347-17-m.png" crc="468454789" ref="index"/>
+    <file name="u347-17-fs.png" crc="4127326546" ref="index"/>
     <file name="arrows-mn_arrow_right.png" crc="4062137678" ref="index"/>
     <file name="u1774.png" crc="3830243537" ref="index"/>
     <file name="u1774-r.png" crc="120001427" ref="index"/>
@@ -124,5 +124,5 @@
     <file name="u1778.png" crc="192037712" ref="index"/>
     <file name="u1778-r.png" crc="221696330" ref="index"/>
   </folder>
-  <file name="index.html" crc="43258165" seo="true" mt="1493664600642" redirect="true"/>
+  <file name="index.html" crc="367789211" seo="true" mt="1493666631788" redirect="true"/>
 </manifest>
