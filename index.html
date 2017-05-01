@@ -12,10 +12,10 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?303421102"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?3813256392"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?27369477" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?3985172989" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?521529352"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?4252646885"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -24,7 +24,7 @@ var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
   <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n6,n7,n3,n4,i4,i3:all;josefin-sans:n3,n4:all.js" type="text/javascript">\x3C/script>');
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n6,n7,n3,n4,i3:all;josefin-sans:n3,n4:all.js" type="text/javascript">\x3C/script>');
 </script>
     <!--custom head HTML-->
   <script>
@@ -37,6 +37,51 @@ ga('create', 'UA-61250395-1', 'auto');
 ga('send', 'pageview');
 
 </script>
+<script>
+	expandableStates=[];
+	expandableToggleButtons=[];
+	
+	function toggleExpandable(expandableID, clickedButtonID) {
+		var collapsing = true;
+		
+		for (var i=0;i<expandableStates.length;i++) 
+		{
+			var state = expandableStates[i];
+			var element = document.getElementById(state.id);
+			if (expandableID == state.id) 
+			{
+				state.collapsed = !state.collapsed;
+				collapsing = state.collapsed;
+				if (collapsing)
+				{
+					element.style.display="none";
+				}
+				else
+				{
+					element.style.display="block";
+				}
+			} 
+			else 
+			{
+				state.collapsed=true;
+				element.style.display="none";
+			}
+		}
+		
+		for (var i=0;i<expandableToggleButtons.length;i++) 
+		{
+			var expandableToggleButton = expandableToggleButtons[i];
+			if (expandableToggleButton.id != clickedButtonID || collapsing) 
+			{
+				expandableToggleButton.innerHTML = "Read more..";
+			} 
+			else 
+			{
+				expandableToggleButton.innerHTML = "Read less..";
+			}
+		}
+	}
+</script>
  </head>
  <body>
 
@@ -47,7 +92,7 @@ ga('send', 'pageview');
       <div id="u120"><!-- simple frame --></div>
      </div>
      <!-- m_editable region-id="editable-static-tag-U168-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-     <a class="nonblock nontext anim_swing clearfix" id="u168-4" href="index.html#projects" data-href="anchor:U69:U611" data-muse-uid="U168" data-muse-type="txt_frame"><!-- content --><p id="u168-2">PROJECTS</p></a>
+     <a class="nonblock nontext anim_swing clearfix" id="u168-4" href="index.html#cv" data-href="anchor:U69:U5283" data-muse-uid="U168" data-muse-type="txt_frame"><!-- content --><p id="u168-2">CV</p></a>
      <!-- /m_editable -->
      <!-- m_editable region-id="editable-static-tag-U182-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
      <a class="nonblock nontext anim_swing clearfix" id="u182-4" href="index.html#contact" data-href="anchor:U69:U8542" data-muse-uid="U182" data-muse-type="txt_frame"><!-- content --><p id="u182-2">CONTACT</p></a>
@@ -56,7 +101,7 @@ ga('send', 'pageview');
      <a class="nonblock nontext anim_swing clearfix" id="u172-4" href="index.html#about-me" data-href="anchor:U69:U612" data-muse-uid="U172" data-muse-type="txt_frame"><!-- content --><p id="u172-2">ABOUT ME</p></a>
      <!-- /m_editable -->
      <!-- m_editable region-id="editable-static-tag-U173-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-     <a class="nonblock nontext anim_swing clearfix" id="u173-4" href="index.html#cv" data-href="anchor:U69:U5283" data-muse-uid="U173" data-muse-type="txt_frame"><!-- content --><p id="u173-2">CV</p></a>
+     <a class="nonblock nontext anim_swing clearfix" id="u173-4" href="index.html#projects" data-href="anchor:U69:U611" data-muse-uid="U173" data-muse-type="txt_frame"><!-- content --><p id="u173-2">PROJECTS</p></a>
      <!-- /m_editable -->
     </div>
     <a class="anchor_item colelem" id="top"></a>
@@ -619,54 +664,90 @@ ga('send', 'pageview');
        </div>
        <!-- /m_editable -->
        <div class="colelem" id="u8131"><!-- simple frame --></div>
-       <!-- m_editable region-id="editable-static-tag-U8090-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
-       <div class="clearfix colelem" id="u8090-26" data-muse-uid="U8090" data-muse-type="txt_frame"><!-- content -->
-        <p id="u8090-2">Avatarz - Instructor</p>
-        <p id="u8090-4">​March 2015 - Present</p>
-        <p id="u8090-5">&nbsp;</p>
-        <p id="u8090-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p id="u8090-8">&nbsp;</p>
-        <p id="u8090-10">Future of Fame - Intern</p>
-        <p id="u8090-12">​Aug 2014 - Feb 2015</p>
-        <p id="u8090-13">&nbsp;</p>
-        <p id="u8090-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p id="u8090-16">&nbsp;</p>
-        <p id="u8090-18">038 Games - Intern</p>
-        <p id="u8090-20">​Feb 2014 - June 2014</p>
-        <p id="u8090-21">&nbsp;</p>
-        <p id="u8090-23">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <p id="u8090-24">&nbsp;</p>
-       </div>
-       <!-- /m_editable -->
+       <div class="colelem" id="u11323"><!-- custom html -->
+        <span>
+	<span style="font-size:18px; color:#283C00;"><b>Avatarz - Instructor</b></span><br>
+	<span style="font-size:16px; color:#141414;">​<i>March 2015 - Present</i></span><br>
+	<br>
+	<span style="font-size:14px; color:#141414;">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+		<br>
+		<span style="font-size:18px; color:#283C00;"><b>Future of Fame - Intern</b></span><br>
+		<span style="font-size:16px; color:#141414;">​<i>​​Aug 2014 - Feb 2015</i></span><br>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+	</span>
+</span>
+
+<span class="expandable" style="display:none;" id="work experience">ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+	<br>
+	<span style="font-size:18px; color:#283C00;"><b>038 Games - Intern</b></span><br>
+	<span style="font-size:16px; color:#141414;">​<i>​Feb 2014 - June 2014</i></span><br>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+	<br>
+</span>
+
+<script>
+	var element = document.getElementById('work experience');
+	var expandableState = {id:(element.id), collapsed:true};
+	expandableStates.push(expandableState);
+</script>
+</div>
+       <div class="rounded-corners colelem" id="u11328"><!-- custom html -->
+        <div style="text-overflow: fade; width:650px; height: 15px; cursor:pointer;" id="work experience button" onclick="toggleExpandable('work experience', 'work experience button')">Read more..</div>
+
+<script>
+	expandableToggleButtons.push(document.getElementById('work experience button'));
+</script>
+</div>
        <!-- m_editable region-id="editable-static-tag-U8097-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
        <div class="clearfix colelem" id="u8097-4" data-muse-uid="U8097" data-muse-type="txt_frame"><!-- content -->
         <p>Education</p>
        </div>
        <!-- /m_editable -->
        <div class="colelem" id="u8134"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="pu8096-27"><!-- group -->
-        <!-- m_editable region-id="editable-static-tag-U8096-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
-        <div class="clearfix grpelem" id="u8096-27" data-muse-uid="U8096" data-muse-type="txt_frame"><!-- content -->
-         <p id="u8096-2">Saxion Enschede - Game Engineering - HBO</p>
-         <p id="u8096-4">​2015 - present</p>
-         <p id="u8096-5">&nbsp;</p>
-         <p id="u8096-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-         <p id="u8096-8">&nbsp;</p>
-         <p id="u8096-10">Deltion College - Game Development - MBO</p>
-         <p id="u8096-12">​2011 - 2015</p>
-         <p id="u8096-13">&nbsp;</p>
-         <p id="u8096-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-         <p id="u8096-16">&nbsp;</p>
-         <p id="u8096-18">Bataafse Kamp - Highschool - VMBO niveau 4</p>
-         <p id="u8096-20">2007 - 2011</p>
-         <p id="u8096-21">&nbsp;</p>
-         <p id="u8096-23">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-         <p id="u8096-24">&nbsp;</p>
-         <p id="u8096-25">&nbsp;</p>
-        </div>
-        <!-- /m_editable -->
+       <div class="clearfix colelem" id="pcontact"><!-- group -->
         <a class="anchor_item grpelem" id="contact"></a>
+        <div class="grpelem" id="u11337"><!-- custom html -->
+         <span>
+	<span style="font-size:18px; color:#283C00;"><b>Saxion Enschede - Game Engineering - HBO</b></span><br>
+	<span style="font-size:16px; color:#141414;">​<i>​2015 - Present</i></span><br>
+	<br>
+	<span style="font-size:14px; color:#141414;">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+		<br>
+		<span style="font-size:18px; color:#283C00;"><b>Deltion College - Game Development - MBO</b></span><br>
+		<span style="font-size:16px; color:#141414;">​<i>​​​2011 - 2015</i></span><br>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+	</span>
+</span>
+
+<span class="expandable" style="display:none;" id="education">labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+	<br>
+	<span style="font-size:18px; color:#283C00;"><b>Bataafse Kamp - High school - VMBO niveau 4</b></span><br>
+	<span style="font-size:16px; color:#141414;">​<i>​2007 - 2011</i></span><br>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+	<br>
+</span>
+
+<script>
+	var element = document.getElementById('education');
+	var expandableState = {id:(element.id), collapsed:true};
+	expandableStates.push(expandableState);
+</script>
+
+</div>
        </div>
+       <div class="rounded-corners colelem" id="u11338"><!-- custom html -->
+        <div style="text-overflow: fade; width:650px; height: 15px; cursor:pointer;" id="education button" onclick="toggleExpandable('education', 'education button')">Read more..</div>
+
+<script>
+	expandableToggleButtons.push(document.getElementById('education button'));
+</script>
+</div>
       </div>
      </div>
     </div>
